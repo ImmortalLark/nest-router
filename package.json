@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/ImmortalLark/nest-router#readme",
   "dependencies": {
-    "@nestjs/common": "^4.6.4",
-    "reflect-metadata": "^0.1.10"
+    "@nestjs/common": "^4.6.4"
   }
 }
