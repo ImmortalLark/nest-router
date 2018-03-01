@@ -1,5 +1,5 @@
 {
-  "name": "nest-router",
+  "name": "nest-controller",
   "version": "0.0.1",
   "description": "nest路由嵌套工具",
   "main": "index.js",

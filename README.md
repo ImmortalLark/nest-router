@@ -1,4 +1,4 @@
-# nest-router
+# nest-controller
 实现 nest controller 复用的路由嵌套
 ### 使用方式
 包装nestjs Module装饰器的controllers参数
@@ -8,7 +8,7 @@ npm install nest-router --save
 ```
 #### 使用
 ```js
-import NestRouter from "nest-router";
+import NestedController from "nest-controller";
 import { Module, Controller } from "@nestjs/common";
 import AdminController from "./admin.controller";
 import ArticalController from "../artical/artical.controller";
@@ -19,7 +19,7 @@ import UserController from "../user/user.controller";
  * "admin/artical/*" 和 "admin/user/*"
  */
 @Module({
-  controllers: [ AdminController, ...NestedControllerMixin("admin", ArticalController, UserController) ] 
+  controllers: [ AdminController, ...NestedController("admin", ArticalController, UserController) ] 
 })
 export default class AdminModule {}
 ```
