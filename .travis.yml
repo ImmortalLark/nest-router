@@ -3,5 +3,5 @@ node_js:
   - "6"
 install: 
   - npm install
-script
+script:
   - npm run build
