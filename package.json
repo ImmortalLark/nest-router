@@ -12,7 +12,9 @@
     "url": "git+https://github.com/ImmortalLark/nest-router.git"
   },
   "keywords": [
-    "nest",
+    "nestjs",
+    "router",
+    "nest-router"
     "路由",
     "嵌套"
   ],
