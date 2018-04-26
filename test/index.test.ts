@@ -1,5 +1,5 @@
 import test from 'ava';
-import NestRouter from '../index';
+import NestRouter from '../dist/index';
 import { Controller, Module } from "@nestjs/common";
 import { PATH_METADATA, MODULE_PATH } from '@nestjs/common/constants';
 
