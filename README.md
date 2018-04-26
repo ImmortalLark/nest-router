@@ -3,6 +3,7 @@
 
 [![Build Status](https://travis-ci.org/ImmortalLark/nest-router.svg?branch=master)](https://travis-ci.org/ImmortalLark/nest-router)
 [![Travis](https://img.shields.io/badge/latest-v0.0.5-brightgreen.svg)](https://www.npmjs.com/package/nestjs-router)
+[![Coverage Status](https://coveralls.io/repos/github/ImmortalLark/nest-router/badge.svg?branch=feature%2Ftest)](https://coveralls.io/github/ImmortalLark/nest-router?branch=feature%2Ftest)
 
 实现 nest 路由嵌套以复用模块或controller
 
