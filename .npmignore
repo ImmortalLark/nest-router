@@ -1,4 +1,11 @@
 #files
 npm-debug.log
+.coveralls.yml
+.gitignore
+.travis.yml
 #dir
 node_modules/
+.nyc_output/
+coverage/
+dist_test/
+test/
