@@ -1,5 +1,7 @@
 #files
 npm-debug.log
+package-lock.json
 #dir
 node_modules/
 build/
+dist/

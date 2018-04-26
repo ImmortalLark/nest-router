@@ -12,7 +12,7 @@
     "sourceMap": false,
     "allowJs": false,
     "rootDir": "./",
-    "outDir": "./build"
+    "outDir": "./dist"
   },
   "include": [
     "*.ts",
